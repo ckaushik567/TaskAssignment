@@ -3,6 +3,11 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+.radio-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 input[type="radio"] {
     appearance: none;
