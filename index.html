@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <hr style="width:40%;text-align:left;margin-left:0">
+            </p>
+            <h1 style="width: 100%;">YAY! It’s BOGO</h1>
+            <hr style="width:40%;text-align:left;margin-left:0">
+            </p>
+        </div>
+        <div onclick="expandBoxFunc(this,'radio1')" id="box" class="main-section">
+            <div class="main-box">
+                <div class="left">
+                    <div class="radio-box">
+                        <input type="radio" name="" id="">
+                    </div>
+                    <div class="unit-box">
+                        <div class="unit">
+                            <p class="units">1 Unit</p>
+                            <p class="discount">10% Off</p>
+                        </div>
+                        <p class="sp">Standard Price</p>
+                    </div>
+                </div>
+                <div class="price-section">
+                    <p id="price">$10.00 USD</p>
+                    <p class="blur-usd">$24.00 USD </p>
+                </div>
+            </div>
+            <div class="size-color-container" id="boxContainer">
+
+            </div>
+        </div>
+        <div onclick="expandBoxFunc1(this,'radio2')" id="box1" class="main-section">
+            <div class="popular">
+                <p>MOST POPULAR</p>
+            </div>
+            <div class="main-box">
+                <div class="left">
+                    <div class="radio-box">
+                        <input type="radio" name="" id="">
+                    </div>
+                    <div class="unit-box">
+                        <div class="unit">
+                            <p class="units">2 Unit</p>
+                            <p class="discount">20% Off</p>
+                        </div>
+                        <!-- <p class="sp">Standard Price</p> -->
+                    </div>
+                </div>
+                <div class="price-section">
+                    <p id="price">$18.00 USD</p>
+                    <p class="blur-usd">$24.00 USD </p>
+                </div>
+            </div>
+            <div class="size-color-container" id="boxContainer1">
+            </div>
+        </div>
+        <div onclick="expandBoxFunc2(this,'radio3')" id="box2" class="main-section">
+            <div class="main-box">
+                <div class="left">
+                    <div class="radio-box">
+                        <input type="radio" name="" id="">
+                    </div>
+                    <div class="unit-box">
+                        <div class="unit">
+                            <p class="units">3 Unit</p>
+                            <p class="discount">30% Off</p>
+                        </div>
+                        <!-- <p class="sp">Standard Price</p> -->
+                    </div>
+                </div>
+                <div class="price-section">
+                    <p id="price">$24.00 USD</p>
+                    <p class="blur-usd">$24.00 USD </p>
+                </div>
+            </div>
+            <div class="size-color-container" id="boxContainer2">
+                
+            </div>
+        </div>
+        <div class="free-del-section">
+            <p id="free-del">Free Delivery</p>
+            <p id="total">Total : $18.00 USD</p>
+        </div>
+        <div class="btn-section">
+            <div class="btn">
+                <i class="fa-solid fa-plus"></i>Add to Cart
+            </div>
+            <div class="footer">
+                <p>@ Powered by Pumper</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
